@@ -54,9 +54,3 @@ Dark mode
 
 👨‍💻 Author
 GitHub: https://github.com/Atalan04/TO-DO-APP.git
-
-
-<p align="center">
-  <img src="Assets/main-page.png" alt="Project Screenshot" width="700">
-</p>
-
