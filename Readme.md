@@ -10,7 +10,8 @@ https://atalan04.github.io/TO-DO-APP/
 
 📸 Preview
 
-[![Main Page Screeen-Shot](assets/main-page.png)](https://github.com/Atalan04/TO-DO-APP/blob/main/Assets/main-page.png)
+![Main Page](Assets/main-page.png)
+
 
 
 
