@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atalan</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Todo App | Ahmadreza</h1>
+        <div class="div-add-input">
+            <input type="text" name="add-todo" id="add-todo">
+            <input type="date" id="todo-date">
+            <button class="add-button">Add</button>
+        </div>
+        <div class="todo-buttons">
+            <div class="todo-list">
+                <button >All</button>
+                <button >Pending</button>
+                <button >Done</button>
+            </div>
+            <div > 
+            <button class="deleteAll-button">Delete All</button>
+            </div>
+        </div>
+    </header>
+    <div id="alert-message"></div>
+    <main>
+        <table class="task-table"
+        ><thead>
+            <tr>
+                <th>Task</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        </table>
+    </main>
+<script src="./JS/app.js"></script>
+</body>
+</html>
