@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    background-color: azure;
+}
+
+header {
+    margin-top: 30px;
+    background-color: rgb(209, 197, 178);
+    width: 700px;
+    text-align: center;
+    border-radius: 10px;
+    height: 170px;
+    box-shadow: 
+    0 4px 6px rgba(0,0,0,0.1),
+    0 10px 20px rgba(0,0,0,0.2);
+
+}
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+#add-todo {
+    height: 25px;
+    width: 300px;
+    border: 1px solid rgb(248, 244, 1);
+}
+#todo-date {
+    height: 25px;
+    width: 300px;
+    border: 1px solid rgb(248, 244, 1);
+
+}
+
+.add-button {
+    color: black;
+    background: #f8f401;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.todo-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 28px 30px 28px
+}
+
+.todo-list button {
+    border: none;
+    border-radius: 5px;
+    background: #f8f401;
+    padding: 5px;
+}
+
+.deleteAll-button {
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 86, 86);
+    padding: 5px;
+}
+
+.task-table {
+    margin-top: 30px;
+    width: 700px
+}
+.task-table th {
+    background-color: rgb(199, 198, 198);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+} 
+
+.task-table td {
+    background-color: rgb(236, 234, 234);
+    text-align: center;
+}
+
+.edit {
+    border: none;
+    background: #f8ae01;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.do {
+    border: none;
+    background: rgb(4, 219, 4);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 3px 0 3px;
+}
+.delete {
+    border: none;
+    background: rgb(255, 86, 86);
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#alert-message{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alert{
+    width: 700px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.alert-success {
+    background-color: green;
+}
+
+.alert-error {
+    background-color: red;
+  
+    
+}
